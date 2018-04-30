@@ -1,0 +1,220 @@
+body{
+	background: url("file:///C:/UrbRISK/Cities/Asia/India/Mumbai/Images/Mumbai_city.jpg");
+	background-position:65% 50%;
+	background-size:45% auto;
+	background-repeat: no-repeat;
+	opacity:1.0;
+	}
+.wrapper{
+	width:1039px;
+	!background:lightblue;
+	margin: 0 auto 0 auto;
+}
+.heading{
+	height:75px;
+	!opacity: 0.6;
+	!background:#E0E0E0; 
+	background:white;
+	border: 1px solid;
+	font-size: 25px;
+    !padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 153, 255) inset;
+	padding:0px; 
+	text-align:center;
+	text-shadow: 0 0 3px #EE82EE;
+	border-style:none;
+	border-color:white;
+}
+.main{
+	min-height:100px;
+	background:white;
+	opacity:0.7;
+	position:relative;
+	top:75px;
+	font-weight:bold;
+	padding:30px 40px 30px 40px;
+	border-style:solid;
+	border-color:balck;
+}
+.menu1{
+	text-align:left;
+	background:lightblue;
+	opacity:0.7;
+	padding:10px;
+	border-style:solid;
+	border-color:none;
+	font-weight:bold;
+}.menu2{
+	position:relative;
+	left:300px;
+	background:lightblue;
+	opacity:0.7;
+	padding:10px;
+	border-style:solid;
+	border-color:none;
+	font-weight:bold;
+}.menu3{
+	position:relative;
+	left:600px;
+	background:lightblue;
+	opacity:0.7;
+	padding:10px;
+	border-style:solid;
+	border-color:none;
+	font-weight:bold;
+}
+.footer{
+	clear:both;
+	background:black;
+	min-height:10px;
+	color:white;
+	text-align:center;
+	padding:5px;
+	position:relative;
+	float:bottom;
+	bottom:-155px;
+}
+.cities{
+	min-height:5px;
+	opacity: 0.7;
+	background:white;
+	text-align:center;
+	float:top;
+	font-weight:bold;
+	font-size:20px;
+	position:relative;
+	top:450px;
+}
+.city-desc{
+	min-height:20px;
+	opacity: 0.7;
+	background:white;
+	padding:5px;
+	text-align:center;
+	border-style:solid;
+	border-color:black;
+	float:top;
+	position:relative;
+	top:460px;
+}
+.content{
+	height:200px;
+	background:#ddd;
+	position:relative;
+	top:570px;
+	width:600px;
+	opacity:0.6;
+	float:left;
+	font-weight:bold;
+}
+.sidebar{
+	width:300px;
+	float:right;
+	position:relative;
+	top:570px;
+	background:lightblue;
+	height:200px;
+	font-weight:bold;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: underline;
+    color: navy;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: navy;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+img {
+  display: block;
+  max-width:400px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+}
+#main_nav ul {
+			box-shadow: inset 50px 50px 60px rgba(0, 153, 255,0.8);
+			float: left;
+			position: relative;
+			-webkit-transition: 1s;
+			transition: 1s;
+			border-style:none;
+			border-color:none;
+			position: absolute;
+			top: 92px; 
+			opacity: 1.0;
+		}
+	
+		#main_nav li {
+			float: left;
+			position: relative;
+			width: 333px;
+			list-style: none;
+			-webkit-transition: 1s;
+			transition: 1s;
+		}
+	
+/* 		#main_nav > ul > li > a, h1 {
+			text-transform: uppercase;
+		} */
+	
+		#main_nav a {
+			display: block;
+			font-size: 16px;
+			text-decoration: none;
+			font-weight:bold;
+			padding: 5px;
+			color: #000;
+		}
+
+		#main_nav ul ul {
+			position: absolute;
+			left: 0;
+			top: 100%;
+			visibility: hidden;
+			opacity: 1.0;
+		}
+	
+		#main_nav ul ul ul {
+			left: 100%;
+			top: 0;
+		}
+	
+		#main_nav li:hover, #main_nav li:hover li {
+			background: #ddd;
+		}
+	
+		#main_nav li li:hover, #main_nav li li:hover li {
+			background: #bbb;
+		}
+	
+		#main_nav li li li:hover {
+			background: #999;
+		}
+	
+		#main_nav li:hover > ul {
+			visibility: visible;
+			opacity: 1;
+		}
